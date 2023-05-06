@@ -11,7 +11,7 @@ cd JAVAapp
 mvn install
 mvn package
 sudo docker build -t maven .
-sudo docker tag maven gangadhariy/jenkinauto:v1
+sudo docker tag maven gangadhariy/jenkinauto
 sudo docker login -u gangadhariy -p gang@1112
-sudo docker push gangadhariy/jenkinauto:v1
+sudo docker push gangadhariy/jenkinauto
 sudo docker run -itd -p 80:8080 gangadhariy/jenkinauto:v1 bash
