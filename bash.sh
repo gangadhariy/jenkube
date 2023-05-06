@@ -14,4 +14,4 @@ sudo docker build -t maven .
 sudo docker tag maven gangadhariy/jenkinauto:v1
 sudo docker login -u gangadhariy -p gang@1112
 sudo docker push gangadhariy/jenkinauto:v1
-sudo docker run -itd --name=kelvin -p 80:8080 gangadhariy/jenkinauto:v1 bash
+sudo docker run -itd -p 80:8080 gangadhariy/jenkinauto:v1 bash
