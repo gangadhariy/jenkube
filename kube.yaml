@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: mydep1
+spec:
+  replicas: 4
+  strategy:
+    type: RollingUpdate
+  selector: 
+    matchLabels: 
+      name: app
+  template:
+    metadata:
+     name: mypod
+     labels:  
+       name: app
+    spec: 
+      containers:
+       - name: docker1
+         image: nginx
+         ports:
+           - containerPort: 80 
+           
