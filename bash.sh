@@ -5,7 +5,7 @@ sudo apt install maven -y
 sudo apt update -y
 sudo apt install docker.io -yf
 sudo systemctl start docker
-sudo systemctl enable docker
+sudo systemctl enable dockerjng
 sudo git clone https://github.com/gangadhariy/JAVAapp.git
 cd JAVAapp
 mvn install
