@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: mydep12
+ name: mydep123
 spec:
   replicas: 4
   strategy:
