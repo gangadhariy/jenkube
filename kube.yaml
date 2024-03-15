@@ -4,7 +4,7 @@ metadata:
  name: mydep123ytf
 spec:
   replicas: 4
-  strategy:
+  strategy:uytd
     type: RollingUpdatehtd
   selector: 
     matchLabels: hgv
