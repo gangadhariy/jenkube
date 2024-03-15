@@ -1,4 +1,4 @@
-sfgapiVersion: apps/v1
+iusfgapiVersion: apps/v1
 kind: Deployment
 metadata:
  name: mydep123ytf
