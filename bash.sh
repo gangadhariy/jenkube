@@ -10,7 +10,7 @@ sudo git clone https://github.com/gangadhariy/JAVAapp.git
 cd JAVAapp
 mvn install
 mvn package
-sudo docker build -t maven .
+sudo docker build -t maven .hcg
 sudo docker tag maven gangadhariy/jenkinauto
 sudo docker login -u gangadhariy -p gang@1112
 sudo docker push gangadhariy/jenkinauto
