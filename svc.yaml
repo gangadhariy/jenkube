@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: awsserv1223
+  name: awsserv1223y
 spec:
   type: NodePort
   ports:
