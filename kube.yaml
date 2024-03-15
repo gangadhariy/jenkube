@@ -2,7 +2,7 @@ sfgapiVersion: apps/v1
 kind: Deployment
 metadata:
  name: mydep123ytf
-spec:
+spec:kh
   replicas: 4
   strategy:uytd
     type: RollingUpdatehtd
