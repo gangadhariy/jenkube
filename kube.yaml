@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 4
   strategy:uytd
-    type: RollingUpdatehtd
+    type: RollingUpdatehtdjyg
   selector: 
     matchLabels: hgv
       name: app
