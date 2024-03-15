@@ -3,7 +3,7 @@ sudo apt update -y
 sudo apt install openjdk-11-jre -y
 sudo apt install maven -y
 sudo apt update -y
-sudo apt install docker.io -y
+sudo apt install docker.io -yf
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo git clone https://github.com/gangadhariy/JAVAapp.git
